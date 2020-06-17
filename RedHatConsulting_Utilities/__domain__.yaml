@@ -1,0 +1,12 @@
+---
+object_type: domain
+version: 1.0
+object:
+  attributes:
+    name: RedHatConsulting_Utilities
+    description: ManageIQ Automate Domain of shared utilities to be used by other
+      ManageIQ domains.
+    display_name: Utilities
+    enabled: true
+    source: user
+    top_level_namespace: 

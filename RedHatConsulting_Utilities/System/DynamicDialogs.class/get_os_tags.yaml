@@ -1,0 +1,13 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: get_os_tags
+    inherits: 
+    description: 
+  fields:
+  - execute:
+      value: get_tags(tag_category => 'os', multiselect => 'false', always_visible
+        => 'true', sort_order => 'descending')

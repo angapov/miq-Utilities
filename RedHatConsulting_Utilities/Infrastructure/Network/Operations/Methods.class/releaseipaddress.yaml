@@ -1,0 +1,15 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: 
+    name: ReleaseIPAddress
+    inherits: 
+    description: 
+  fields:
+  - execute:
+      value: release_ip_address
+      collect: "/released_ip_address = released_ip_address"
+  - notify:
+      value: notify_released_ip
